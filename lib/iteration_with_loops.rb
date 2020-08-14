@@ -3,10 +3,13 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
 row_index = 0
-while row_index < array[row_index].length do
-  
-  column
-row_index += 1
+while row_index < src.count do
+ 
+ element_count = 0
+ while element_count < scr[row_index].count do
+   element_count += 1
+ end
+  row_index += 1
 
-end
+ end
 end
